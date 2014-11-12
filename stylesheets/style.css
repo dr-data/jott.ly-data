@@ -1,4 +1,4 @@
-h1, p, ul.li {
+h1, h2, h5, p, ul.li {
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif; 
     font-weight: 400;
     color: #ffffff;
@@ -130,26 +130,129 @@ h5.sub-subtitle:after{
     z-index:-1;
 }
 
+h5.price-title {
+    color: #ffffff;
+}
+
+h5.price-per-month{
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif; 
+    font-weight: 400;
+}
+
+h5.price-button{
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif; 
+    font-weight: 600;
+    color:#333333;
+}
+
 .line-center{
     margin:0;padding:0 10px;
     background:#3498db;
     display:inline-block;
 }
 
-#price-pro-header{
+#price-basic-header{
   background-color: #27ae60;
   text-align: center;
   border: 2px solid;
   border-radius: 5px;
   border-color: #27ae60;
+  margin-top: 7px;
 
 }
 
-.price-table-body{
+#price-basic-features{
+  background-color: #34c772;
+  text-align: center;
+
+}
+
+#price-basic-table-bottom{
+  background-color: #34c772;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#price-pro-header{
+  background-color: #e2536b;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #e2536b;
+  min-width: 255px;
+}
+
+#price-pro-features{
+  background-color: #eb6378;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 240px;
+}
+
+#price-pro-table-bottom{
+  background-color: #e2536b;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 240px;
+}
+
+#price-biz-header{
+  background-color: #e67e22;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #e67e22;
+  min-width: 255px;
+}
+
+#price-biz-features{
+  background-color: #f39c12;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 240px;
+}
+
+#price-biz-table-bottom{
+  background-color: #e67e22;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 240px;
+}
+
+
+#price-table-body{
   background-color: #ffffff;
   text-align: center;
-  margin: 5px 5px 5px 5px;
-  padding: -3px 0 0 -10px;
+  padding: 10px 5px 10px 5px;
+}
+
+#price-pro-table-body{
+  background-color: #ffffff;
+  text-align: center;
+   min-width: 250px;
+  padding: 10px 5px 10px 5px;
+}
+
+#price-biz-table-body{
+  background-color: #ffffff;
+  text-align: center;
+   min-width: 250px;
+  padding: 10px 5px 10px 5px;
 }
 
 p.price-table-text{
@@ -157,6 +260,26 @@ p.price-table-text{
   text-align: center;
 }
 
+
+#get-started{
+  background-color: #ffffff;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #ffffff;
+
+}
+
+.price-text{
+      color:#fff;
+      font-weight: 700; 
+      font-size: 50px;
+}
+
+.price-per-month{
+  font-size: 10px;
+  color:#fff;
+}
 
 
 div.features {
@@ -187,12 +310,15 @@ p.main-text {
 
 
 div#header #sign-up {
-    border: 2px solid;
+    border: 3px solid;
     border-radius: 5px;
     border-color: #ffffff;
-    width: 110px;
-    margin-right: auto;
-    margin-left: auto;
+    width: 120px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
 }
 
 div#header nav {
@@ -290,18 +416,27 @@ div#footer-email form button {
 
 
 
+
+img {
+  max-width: 100%
+  height: auto !important;
+}
+
+
 @media only screen and (max-width: 479px) {
     header h1 {
         display:block;
         text-align: center;
         margin-top:20px;
+        margin-left:3px;
+        margin-right:3px;
     }
     header nav {
         display:block;
     }
     header nav ul {
         float:none;
-        text-align: center;
+        text-align: left;
     }
     header nav ul li {
         display: block;
@@ -311,4 +446,10 @@ div#footer-email form button {
         padding: 5px 0;
         background-color: #309852;
     }
+
+   .arrow-img { 
+      display: none !important;
+   }
+
+
 }
