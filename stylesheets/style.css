@@ -1,4 +1,4 @@
-h1, h2, h5, p, ul.li {
+h1, h2, h3, h5, p, ul.li {
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif; 
     font-weight: 400;
     color: #ffffff;
@@ -130,7 +130,7 @@ h5.sub-subtitle:after{
     z-index:-1;
 }
 
-h5.price-title {
+h4.price-title {
     color: #ffffff;
 }
 
@@ -158,13 +158,13 @@ h5.price-button{
   border-radius: 5px;
   border-color: #27ae60;
   margin-top: 7px;
-
+  margin-left:15px;
 }
 
 #price-basic-features{
   background-color: #34c772;
   text-align: center;
-
+  margin-left:15px;
 }
 
 #price-basic-table-bottom{
@@ -174,6 +174,7 @@ h5.price-button{
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-left:15px;
 }
 
 #price-pro-header{
@@ -183,6 +184,7 @@ h5.price-button{
   border-radius: 5px;
   border-color: #e2536b;
   min-width: 255px;
+  margin-left:25px;
 }
 
 #price-pro-features{
@@ -193,6 +195,7 @@ h5.price-button{
   padding-top: 10px;
   padding-bottom: 10px;
   min-width: 240px;
+  margin-left:25px;
 }
 
 #price-pro-table-bottom{
@@ -203,6 +206,7 @@ h5.price-button{
   padding-top: 10px;
   padding-bottom: 10px;
   min-width: 240px;
+  margin-left:25px;
 }
 
 #price-biz-header{
@@ -212,6 +216,7 @@ h5.price-button{
   border-radius: 5px;
   border-color: #e67e22;
   min-width: 255px;
+  margin-left:30px;
 }
 
 #price-biz-features{
@@ -222,6 +227,7 @@ h5.price-button{
   padding-top: 10px;
   padding-bottom: 10px;
   min-width: 240px;
+  margin-left:30px;
 }
 
 #price-biz-table-bottom{
@@ -232,6 +238,7 @@ h5.price-button{
   padding-top: 10px;
   padding-bottom: 10px;
   min-width: 240px;
+  margin-left:30px;
 }
 
 
@@ -239,20 +246,23 @@ h5.price-button{
   background-color: #ffffff;
   text-align: center;
   padding: 10px 5px 10px 5px;
+  margin-left:15px;
 }
 
 #price-pro-table-body{
   background-color: #ffffff;
   text-align: center;
-   min-width: 250px;
+  min-width: 250px;
   padding: 10px 5px 10px 5px;
+  margin-left:25px;
 }
 
 #price-biz-table-body{
   background-color: #ffffff;
   text-align: center;
-   min-width: 250px;
+  min-width: 250px;
   padding: 10px 5px 10px 5px;
+  margin-left:30px;
 }
 
 p.price-table-text{
@@ -267,13 +277,12 @@ p.price-table-text{
   border: 2px solid;
   border-radius: 5px;
   border-color: #ffffff;
-
 }
 
 .price-text{
-      color:#fff;
-      font-weight: 700; 
-      font-size: 50px;
+  color:#fff;
+  font-weight: 700; 
+  font-size: 50px;
 }
 
 .price-per-month{
@@ -296,11 +305,11 @@ p.main-text {
 }
 
 .subtitle {
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif; font-weight: 700; 
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif; font-weight: 700; 
 }
 
 .feature_title{
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif; font-weight: 700; text-align: center;
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif; font-weight: 700; text-align: center;
 }
 
 .one-third{
@@ -310,53 +319,53 @@ p.main-text {
 
 
 div#header #sign-up {
-    border: 3px solid;
-    border-radius: 5px;
-    border-color: #ffffff;
-    width: 120px;
-    margin-right: 5px;
-    margin-left: 5px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  border-color: #ffffff;
+  width: 120px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
 }
 
 div#header nav {
-    margin:10px 0 0;
+  margin:10px 0 0;
 }
 div#header p {
-    margin:10px 0 0;
+  margin:10px 0 0;
 }
 div#header nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 div#header nav ul li {
-    display:inline-block;
+  display:inline-block;
 }
 div#header nav ul li a {
-    color:#ffffff;
-    text-decoration: none;
+  color:#ffffff;
+  text-decoration: none;
 }
 
 div#footer {
-    background-color: #06446d;
-    color:#ccead5;
+  background-color: #06446d;
+  color:#ccead5;
 }
 div#footer nav {
-    margin:10px 0 0;
+  margin:10px 0 0;
 }
 div#footer p {
-    margin:10px 0 0;
+  margin:10px 0 0;
 }
 div#footer nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 div#footer nav ul li {
-    display:inline;
+  display:inline;
 }
 div#footer nav ul li a {
-    color:#ccead5;
-    text-decoration: none;
+  color:#ccead5;
+  text-decoration: none;
 }
 
 .right {
@@ -368,54 +377,49 @@ div#blue-container {
 }
 
 div#footer-email {
-    background-color: #e74c3c;
-    text-align: left;
-    padding:20px 0 5px;
-    max-width: 100%;
+  background-color: #e74c3c;
+  text-align: left;
+  padding:20px 0 5px;
+  max-width: 100%;
 }
-
 div#footer-email h3 {
-    font-size: 24px;
-    font-weight: 900;
-    color:#fff;
+  font-size: 24px;
+  font-weight: 900;
+  color:#fff;
 
 }
 div#footer-email h4 {
-    font-size: 14px;
-    font-weight: 400;
-    color:#fff;
-    margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color:#fff;
+  margin-bottom: 20px;
 }
 div#footer-email form {
-    margin:20px 0 0 0;
-
+  margin:20px 0 0 0;
 }
 
 div#footer-email form input {
-    display: inline;
-    width:180px;
-    border-radius: 4px;
-    border:none;
-    padding: 12px;
+  display: inline;
+  width:180px;
+  border-radius: 4px;
+  border:none;
+  padding: 12px;
 }
 
 
 div#footer-email form button {
-    background: #e74c3c!important;
-    color:#fff;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 16px;
-    border: 2px solid;
-    border-radius: 5px;
-    border-color: #ffffff;
-    width: 160px;
-    margin-right: auto;
-    margin-left: 10px;
+  background: #e74c3c!important;
+  color:#fff;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #ffffff;
+  width: 160px;
+  margin-right: auto;
+  margin-left: 10px;
 }
-
-
-
 
 img {
   max-width: 100%
